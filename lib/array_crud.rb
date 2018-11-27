@@ -7,6 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
+  avatar_elements = ["fire", "earth", "wind", "water",]
   avatar_elements << "metal"
 end
 
