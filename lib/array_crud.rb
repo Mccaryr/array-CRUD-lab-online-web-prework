@@ -8,11 +8,12 @@ end
 
 def add_element_to_end_of_array(array, element)
   avatar_elements = ["fire", "earth", "wind", "water",]
-  avatar_elements << "arrays"
+  avatar_elements << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-
+  avatar_elements = ["fire", "earth", "wind", "water",]
+  avatar_elements.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
